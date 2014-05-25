@@ -14,7 +14,7 @@ namespace PluginFundamentals
       string input = Console.ReadLine().ToUpper();
 
       // "Encrypt" it
-      Rot13 encryptionAlgorithm = new Rot13();
+      IEncryptionAlgorithm encryptionAlgorithm = new Rot13();
       string output = encryptionAlgorithm.Encrypt(input);
 
       // Write output
