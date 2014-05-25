@@ -10,15 +10,13 @@ namespace PluginFundamentals
   {
     static void Main(string[] args)
     {
-      // Get input
-      string input = Console.ReadLine().ToUpper();
-
-      // "Encrypt" it
+      // Set up variables
       IEncryptionAlgorithm encryptionAlgorithm = new Rot13();
-      string output = encryptionAlgorithm.Encrypt(input);
+      ConsoleEncrypter consoleEncrypter = new ConsoleEncrypter(encryptionAlgorithm);
 
-      // Write output
-      Console.WriteLine(output);
+      // Do the program logic
+      consoleEncrypter.GetAndEncryptInput();
+
       Console.ReadLine();
     }
   }
