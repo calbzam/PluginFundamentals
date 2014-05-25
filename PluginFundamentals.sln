@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1-PluginFundamentals", "PluginFundamentals\1-PluginFundamentals.csproj", "{1F16A38C-9EFD-43A7-9072-0FE01FDB79F7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluginFundamentals", "PluginFundamentals\PluginFundamentals.csproj", "{1F16A38C-9EFD-43A7-9072-0FE01FDB79F7}"
 	GlobalSection(PlasticSccProperties) = preSolution
 		ControlledByPlastic = True
 		SccProvider = Plastic SCM
