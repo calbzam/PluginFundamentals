@@ -10,11 +10,9 @@ namespace PluginFundamentals
   {
     static void Main(string[] args)
     {
-      // Set up variables
-      IEncryptionAlgorithm encryptionAlgorithm = new Rot13();
-      ConsoleEncrypter consoleEncrypter = new ConsoleEncrypter(encryptionAlgorithm);
+      CompositionRoot compositionRoot = new CompositionRoot();
 
-      // Do the program logic
+      ConsoleEncrypter consoleEncrypter = compositionRoot.GetConsoleEncrypter();
       consoleEncrypter.GetAndEncryptInput();
 
       Console.ReadLine();
