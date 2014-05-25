@@ -29,6 +29,7 @@ namespace _1_PluginFundamentals
 
             // Write output
             Console.WriteLine(output);
+            Console.ReadLine();
         }
     }
 }
