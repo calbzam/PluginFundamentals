@@ -1,19 +1,21 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Ninject;
 
 namespace PluginFundamentals
 {
   public class CompositionRoot
   {
+    private IKernel container;
+
+    public CompositionRoot()
+    {
+      container = new StandardKernel();
+
+      container.Bind<IEncryptionAlgorithm>().To<Rot13>();
+    }
+
     public ConsoleEncrypter GetConsoleEncrypter()
     {
-      IEncryptionAlgorithm encryptionAlgorithm = new Rot13();
-      ConsoleEncrypter consoleEncrypter = new ConsoleEncrypter(encryptionAlgorithm);
-
-      return consoleEncrypter;
+      return container.Get<ConsoleEncrypter>();
     }
   }
 }
