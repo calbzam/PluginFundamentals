@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PluginFundamentals
 {
- public class Rot13
+ public class Rot13 : IEncryptionAlgorithm
     {
         public string Encrypt(string input)
         {
