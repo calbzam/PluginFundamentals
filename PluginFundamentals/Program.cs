@@ -6,30 +6,20 @@ using System.Threading.Tasks;
 
 namespace PluginFundamentals
 {
-    class Program
+  class Program
+  {
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            // Get input
-            string input = Console.ReadLine().ToUpper();
-            
-            // "Encrypt" it
-            string output = "";
-            foreach (char c in input)
-            {
-                if (c >= 65 && c <= 90)
-                {
-                    output += (char)(c < 78 ? c + 13 : c - 13);
-                }
-                else
-                {
-                    output += c;
-                }
-            }
+      // Get input
+      string input = Console.ReadLine().ToUpper();
 
-            // Write output
-            Console.WriteLine(output);
-            Console.ReadLine();
-        }
+      // "Encrypt" it
+      Rot13 encryptionAlgorithm = new Rot13();
+      string output = encryptionAlgorithm.Encrypt(input);
+
+      // Write output
+      Console.WriteLine(output);
+      Console.ReadLine();
     }
+  }
 }
