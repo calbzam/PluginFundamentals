@@ -9,6 +9,24 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluginFundamentals", "Plugi
 		SccProvider = Plastic SCM
 	EndGlobalSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstraction", "Abstraction\Abstraction.csproj", "{B5F20B72-DACC-4368-ABE4-DC31099B49B6}"
+	GlobalSection(PlasticSccProperties) = preSolution
+		ControlledByPlastic = True
+		SccProvider = Plastic SCM
+	EndGlobalSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetPlugin", "LeetPlugin\LeetPlugin.csproj", "{5B29BD81-B107-4ED1-98B5-097DF2D28076}"
+	GlobalSection(PlasticSccProperties) = preSolution
+		ControlledByPlastic = True
+		SccProvider = Plastic SCM
+	EndGlobalSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rot13Plugin", "Rot13Plugin\Rot13Plugin.csproj", "{CC8D7126-04A7-4AF2-87F9-7508212C6C0D}"
+	GlobalSection(PlasticSccProperties) = preSolution
+		ControlledByPlastic = True
+		SccProvider = Plastic SCM
+	EndGlobalSection
+EndProject
 Global
 	GlobalSection(PlasticSccProperties) = preSolution
 		ControlledByPlastic = True
@@ -23,6 +41,18 @@ Global
 		{1F16A38C-9EFD-43A7-9072-0FE01FDB79F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F16A38C-9EFD-43A7-9072-0FE01FDB79F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F16A38C-9EFD-43A7-9072-0FE01FDB79F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5F20B72-DACC-4368-ABE4-DC31099B49B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5F20B72-DACC-4368-ABE4-DC31099B49B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5F20B72-DACC-4368-ABE4-DC31099B49B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5F20B72-DACC-4368-ABE4-DC31099B49B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B29BD81-B107-4ED1-98B5-097DF2D28076}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B29BD81-B107-4ED1-98B5-097DF2D28076}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B29BD81-B107-4ED1-98B5-097DF2D28076}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B29BD81-B107-4ED1-98B5-097DF2D28076}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC8D7126-04A7-4AF2-87F9-7508212C6C0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC8D7126-04A7-4AF2-87F9-7508212C6C0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC8D7126-04A7-4AF2-87F9-7508212C6C0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC8D7126-04A7-4AF2-87F9-7508212C6C0D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
