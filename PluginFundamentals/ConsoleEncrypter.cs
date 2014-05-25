@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PluginFundamentals
 {
-  class ConsoleEncrypter
+  public class ConsoleEncrypter
   {
     private readonly IEncryptionAlgorithm encryptionAlgorithm;
 

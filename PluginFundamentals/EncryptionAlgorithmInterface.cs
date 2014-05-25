@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PluginFundamentals
 {
-  interface IEncryptionAlgorithm
+  public interface IEncryptionAlgorithm
   {
     string Encrypt(string input);
   }
