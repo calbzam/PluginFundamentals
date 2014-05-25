@@ -7,7 +7,7 @@
     <ProjectGuid>{B5F20B72-DACC-4368-ABE4-DC31099B49B6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Abstraction</RootNamespace>
+    <RootNamespace>PluginFundamentals.Abstraction</RootNamespace>
     <AssemblyName>Abstraction</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>

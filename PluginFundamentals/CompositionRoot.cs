@@ -1,4 +1,5 @@
 ﻿using Ninject;
+using PluginFundamentals.Abstraction;
 
 namespace PluginFundamentals
 {
